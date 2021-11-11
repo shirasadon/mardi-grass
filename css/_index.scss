@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(203, 204, 204);
+}
+
+.container-fluid {
+    @extend %headerFooter;
+}
+
+
+h1 {
+    line-height: 1.8 !important;
+    margin-left: 17vh;
+
+}
+
+.navbar {
+    @extend %theNavbar;
+}
+
+.navbar-collapse {
+    @extend %navbarCollapse;
+}
+
+.navbar-toggler {
+    @extend %navbarToggler;
+}
+
+.navbar-expand-lg {
+    @extend %navbarExpandLg;
+}
+
+.bg-light {
+    background-color: $theyellow !important;
+}
+
+.box {
+    @extend %thebox;
+
+}
+
+.box:hover {
+    background-color: rgb(121, 49, 131);
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    display: inline-block;
+    transform: skew(20deg);
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all 1s;
+    transform: scale(1.1);
+
+}
+
+p {
+    @extend %p;
+}
+
+.img2 {
+    display: none;
+}
+
+.carousel-inner>.carousel-item>img {
+    width: 100vh;
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+h5 {
+    font-family: $thehead2;
+    color: $theblack;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h6 {
+    @extend %Theh2;
+    color: $theblack;
+}
+
+.card {
+    @extend %theCard;
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.card-img-top:hover {
+    transform: scale(2);
+    transition: all 1s;
+}
+
+.btn {
+    @extend %thebtn;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    @extend %thebtnHover;
+}
+
+.btn:active {
+    @extend %thebtnActhv;
+}
+
+.sec {
+    @extend %thesec;
+}
+
+.mayor {
+    display: inline-block;
+    height: 200px;
+    margin: 20px;
+    width: 270px;
+    border-radius: 140px;
+}
+
+.mayor:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.fa {
+    @extend %SocialNetworks;
+
+}
+
+.fa:hover {
+    @extend %SocialNetworksHover;
+}
+
+.networks {
+    @extend %theNetworks;
+
+}
+
+.networks h6 {
+    color: black;
+    font-size: 1.1rem;
+}
+
+// #popupWraper {
+//     background-color: rgba(0, 0, 0, 0.5);
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     width: 100vw;
+//     height: 100vh;
+
+// }
+
+.modal-body .modalP {
+    color: rgb(219, 23, 23) I !important;
+}
+
+.modal-body img {
+    border-radius: 140px;
+
+}

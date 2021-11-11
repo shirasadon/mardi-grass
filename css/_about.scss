@@ -1,0 +1,65 @@
+.container-fluid {
+    @extend %headerFooter;
+}
+
+.navbar {
+    @extend %theNavbar;
+}
+
+.navbar-collapse {
+    @extend %navbarCollapse;
+}
+
+.navbar-toggler {
+    @extend %navbarToggler;
+}
+
+.navbar-expand-lg {
+    @extend %navbarExpandLg;
+}
+
+.box {
+    @extend %thebox;
+
+}
+
+.bg-light {
+    background-color: $theyellow !important;
+}
+
+.sec {
+    @extend %thesec;
+}
+
+
+h2 {
+    @extend %Theh2;
+
+}
+
+h4 {
+    font-family: $baseFont;
+    color: $thepurple;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    @extend %p;
+}
+
+
+
+.fa {
+    @extend %SocialNetworks;
+
+}
+
+.fa:hover {
+    @extend %SocialNetworksHover;
+}
+
+.networks {
+    @extend %theNetworks;
+}

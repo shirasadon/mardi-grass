@@ -1,0 +1,130 @@
+%headerFooter {
+    background-color: $theyellow;
+    height: 100px;
+    font-size: 2em;
+    color: $theblack;
+    font-family: $thehead2;
+    width: 100%;
+}
+
+%theNavbar {
+    font-size: 1.4rem;
+    width: 1500px;
+    height: 80px;
+    padding: 15px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+}
+
+%navbarCollapse {
+    background-color: $theyellow;
+    text-align: center !important;
+}
+
+%navbarToggler {
+    background-color: $theyellow;
+}
+
+%navbarExpandLg {
+    float: right !important;
+    max-width: 100%;
+}
+
+%thebox {
+    height: 320px;
+    background-color: $thepurple;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 380px;
+}
+
+%Theh2 {
+    font-family: $thehead2;
+    text-align: center;
+    color: $thepurple;
+    font-size: 1.8rem;
+}
+
+%Theh3 {
+    font-family: $thehead2;
+    text-align: center;
+}
+
+%theCard {
+    width: 230px;
+    height: 260px;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 80px;
+}
+
+%thebtn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $thegreen;
+    color: $thewhit;
+    width: 100px;
+    font-family: $thehead2;
+    font-size: 0.5;
+    padding: 2px;
+    border: 2px solid $thegreen;
+    border-radius: 50px;
+}
+
+%thebtnHover {
+    background-color: $thewhit;
+    color: $thegreen;
+    border: 2px solid $thegreen;
+}
+
+%thebtnActhv {
+    background-color: $thewhit;
+    color: $thegreen;
+    border: 2px solid $thegreen;
+}
+
+%thesec {
+    width: 1100px;
+    background-color: rgb(237, 238, 234);
+    font-family: $baseFont;
+    line-height: 2;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+%p {
+    font-family: $baseFont;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+%SocialNetworks {
+    padding: 3px;
+    font-size: 14px !important;
+    text-align: center;
+    text-decoration: none;
+    color: $theblack;
+}
+
+%SocialNetworksHover {
+    opacity: 0.7;
+}
+
+%theNetworks {
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+    text-align: center;
+    line-height: 0.8;
+}

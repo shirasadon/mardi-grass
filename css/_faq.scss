@@ -1,0 +1,69 @@
+.navbar {
+    @extend %theNavbar;
+}
+
+.navbar-collapse {
+    @extend %navbarCollapse;
+}
+
+.navbar-toggler {
+    @extend %navbarToggler;
+}
+
+.navbar-expand-lg {
+    @extend %navbarExpandLg;
+}
+
+.bg-light {
+    background-color: $theyellow !important;
+}
+
+.box {
+    @extend %thebox;
+
+}
+
+.acordion {
+    margin-bottom: 10px !important;
+    margin-top: 50px !important;
+}
+
+.accordion-button {
+    border: 0;
+    background-color: #8cbf3f;
+    padding: 2px;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+}
+
+.accordion-body {
+    border: 0;
+    background-color: #628a26 !important;
+    padding: 2px;
+    margin: 4px;
+    text-align: center;
+}
+
+h2 {
+    @extend %Theh2;
+
+}
+
+h3 {
+    @extend %Theh3;
+    text-align: center;
+}
+
+
+.fa {
+    @extend %SocialNetworks;
+}
+
+.fa:hover {
+    @extend %SocialNetworksHover;
+}
+
+.networks {
+    @extend %theNetworks;
+}

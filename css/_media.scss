@@ -1,0 +1,128 @@
+.navbar {
+    @extend %theNavbar;
+}
+
+.navbar-collapse {
+    @extend %navbarCollapse;
+}
+
+.navbar-toggler {
+    @extend %navbarToggler;
+}
+
+.navbar-expand-lg {
+    @extend %navbarExpandLg;
+}
+
+.bg-light {
+    background-color: $theyellow !important;
+}
+
+.box {
+    @extend %thebox;
+}
+
+.themedia {
+    margin-right: auto;
+    margin-left: auto;
+    margin: 10px;
+}
+
+.embed-responsive {
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    @extend %Theh2;
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black;
+    padding: 0;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 69px;
+    overflow: auto;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+    color: rgb(8, 8, 8);
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fa {
+    @extend %SocialNetworks;
+
+}
+
+.fa:hover {
+    @extend %SocialNetworksHover;
+}
+
+.networks {
+    @extend %theNetworks;
+}
